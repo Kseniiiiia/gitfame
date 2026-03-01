@@ -9,10 +9,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"gitlab.com/slon/shad-go/gitfame/internal/blame"
-	"gitlab.com/slon/shad-go/gitfame/internal/filters"
-	"gitlab.com/slon/shad-go/gitfame/internal/output"
-	"gitlab.com/slon/shad-go/gitfame/internal/stats"
+	"github.com/Kseniiiiia/gitfame/internal/blame"
+	"github.com/Kseniiiiia/gitfame/internal/filters"
+	"github.com/Kseniiiiia/gitfame/internal/output"
+	"github.com/Kseniiiiia/gitfame/internal/stats"
 )
 
 var (

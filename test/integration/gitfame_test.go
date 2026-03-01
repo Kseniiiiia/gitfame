@@ -16,7 +16,7 @@ import (
 	"gitlab.com/slon/shad-go/tools/testtool"
 )
 
-const importPath = "gitlab.com/slon/shad-go/gitfame/cmd/gitfame"
+const importPath = "github.com/Kseniiiiia/gitfame/cmd/gitfame"
 
 var binCache testtool.BinCache
 

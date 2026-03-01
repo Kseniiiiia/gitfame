@@ -140,6 +140,8 @@ func BlameFile(repo, rev, file string, useCommitter bool) ([]BlameInfo, error) {
 	}
 
 	scanner := bufio.NewScanner(strings.NewReader(string(out)))
+	buf := make([]byte, 0, 64*1024)
+	scanner.Buffer(buf, 1024*1024)
 	blame := make([]BlameInfo, len(lines))
 
 	lineIndex := 0

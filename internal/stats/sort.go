@@ -1,6 +1,6 @@
 package stats
 
-import "gitlab.com/slon/shad-go/gitfame/internal/output"
+import "github.com/Kseniiiiia/gitfame/internal/output"
 
 func compareRecords(a, b output.Record, orderBy string) bool {
 	switch orderBy {

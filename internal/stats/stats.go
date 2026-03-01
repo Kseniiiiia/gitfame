@@ -3,8 +3,8 @@ package stats
 import (
 	"sort"
 
-	"gitlab.com/slon/shad-go/gitfame/internal/blame"
-	"gitlab.com/slon/shad-go/gitfame/internal/output"
+	"github.com/Kseniiiiia/gitfame/internal/blame"
+	"github.com/Kseniiiiia/gitfame/internal/output"
 )
 
 type AuthorStat struct {
